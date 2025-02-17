@@ -1,0 +1,32 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-bottom: rgb(66, 66, 66) 1px solid;
+}
+
+.turkzy {
+    height: 100px;
+    width: 500px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu :hover {
+    border-bottom: 2px solid orange;
+    transition: border-bottom 0.3s ease-in-out;
+}
+

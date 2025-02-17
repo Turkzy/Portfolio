@@ -1,0 +1,49 @@
+.about {
+    justify-content: center;
+    text-align: center;
+}
+.about-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.title-Me {
+    color: rgb(218, 142, 1);
+}
+
+.about-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.about-image {
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.about-right {
+    padding: 70px 10px;
+    width: 50%;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.about-skills {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.about-skills:hover {
+    color: rgb(241, 180, 10);
+}
+
+.size-sql {
+    height: 30px;
+}

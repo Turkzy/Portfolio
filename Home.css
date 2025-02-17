@@ -1,0 +1,55 @@
+.my-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.profile {
+    margin-top: 150px;
+    height: auto;
+    filter: drop-shadow(20px 30px 40px rgb(160, 104, 0));
+}
+
+.content-profile {
+    text-align: left;
+    font-family: 'outfit';
+    font-size: 25px;
+}
+
+.content-profile h1 {
+    font-size: 50px;
+}
+
+.My-Name {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.profile-highlights {
+    color: rgb(173, 113, 0);
+}
+
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid orange;
+    font-weight: bold;
+    animation: typing 3s steps(20, end) forwards, blink 0.7s infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 85%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

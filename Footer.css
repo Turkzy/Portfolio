@@ -1,0 +1,9 @@
+.footer {
+    border-top: 2px solid orange;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer span {
+    padding: 5px 10px;
+}
